@@ -20,8 +20,15 @@
 <audio controls>
   <source src="audio/Botella.mp3" type="audio/mpeg">
 </audio>
-<button>Haz clic aquí</button>
+
+<form action="/submit" method="post">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+  
+  <button type="submit">Enviar</button>
+</form>
   
 </body>
 
 </html>
+
